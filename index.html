@@ -7,9 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section style="margin-top: 20px;">
-        <h2 style="font-size: 20px; margin-bottom: 10px;">Funcionalidad: Eliminar Tarea</h2>
+  <h1>Gestor de Tareas</h1>
+  
+  <section style="margin-top: 20px;">
+        <h2 style="font-size: 20px; margin-bottom: 10px;">Funcionalidad: Agregar Tarea</h2>
         <button 
+            onclick="console.log('Tarea agregada')" 
+            style="
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        ">
+            Agregar
+        </button>
+    </section>
+
+    <section style="margin-top: 20px;">
+    <h2 style="font-size: 20px; margin-bottom: 10px;">Funcionalidad: Eliminar Tarea</h2>
+    <button 
             onclick="console.log('Tarea eliminada')" 
             style="
             background-color: #B30000;
@@ -19,9 +38,10 @@
             border-radius: 8px;
             font-size: 16px;
             cursor: pointer;
-            ">
+    ">
             Eliminar
-        </button>
+    </button>
     </section>
+  
 </body>
 </html>
