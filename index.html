@@ -7,12 +7,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Gestor de Tareas</h1>
-    
-    <!-- Seccion Filter Tasks-->
+  
+  <h1>Gestor de Tareas</h1>
+  
+  <section style="margin-top: 20px;">
+        <h2 style="font-size: 20px; margin-bottom: 10px;">Funcionalidad: Agregar Tarea</h2>
+        <button 
+            onclick="console.log('Tarea agregada')" 
+            style="
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        ">
+            Agregar
+        </button>
+    </section>
+
     <section style="margin-top: 20px;">
-        <h2 style="font-size: 20px; margin-bottom: 10px;">Funcionalidad: Filtrar Tareas</h2>
-        <button onclick="console.log('Aplicar filtro')" style="
+    <h2 style="font-size: 20px; margin-bottom: 10px;">Funcionalidad: Eliminar Tarea</h2>
+    <button 
+            onclick="console.log('Tarea eliminada')" 
+            style="
+            background-color: #B30000;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+    ">
+            Eliminar
+    </button>
+    </section>
+  
+    <section style="margin-top: 20px;">
+      <h2 style="font-size: 20px; margin-bottom: 10px;">Funcionalidad: Completar Tarea</h2>
+      <button 
+          onclick="console.log('Tarea completada')" 
+          style="
+
           background-color: #B30000;
           color: white;
           border: none;
@@ -21,6 +58,22 @@
           font-size: 16px;
           cursor: pointer;
         ">
+           Completar
+        </button>
+      </section>
+         
+             <!-- Seccion Filter Tasks-->
+    <section style="margin-top: 20px;">
+        <h2 style="font-size: 20px; margin-bottom: 10px;">Funcionalidad: Filtrar Tareas</h2>
+        <button onclick="console.log('Aplicar filtro')" style="
+            background-color: #B30000;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+          ">
             Filtrar
         </button>
     </section>
